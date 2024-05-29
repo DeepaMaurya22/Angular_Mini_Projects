@@ -1,0 +1,42 @@
+.todolist,
+.input {
+  width: 30rem;
+  border: 1px solid black;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 0.5rem;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  cursor: pointer;
+}
+.done {
+  text-decoration-line: line-through;
+}
+.delete {
+  margin-left: auto;
+  padding: 2px;
+}
+.addTodo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input,
+.add {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.add {
+  padding: 2px;
+}
