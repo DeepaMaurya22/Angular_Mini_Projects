@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "abc Beauty Essentials 1",
+      "brand": "Brand2",
+      "price": 1000,
+      "originalPrice": 2000,
+      "discount": 50,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTylopAElLCO5Ylu77-8UqS2gory43mNSo3-_-G922ngg&s"
+    },
+    {
+      "id": "2",
+      "name": "Beauty Essentials 2",
+      "brand": "Brand 2",
+      "price": 1500,
+      "originalPrice": 2500,
+      "discount": 40,
+      "image": "https://ecommercephotographyindia.com/assets/img/gallery/cosmetics-products-photography1.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Beauty Essentials 8",
+      "brand": "Brand 8",
+      "price": 1100,
+      "originalPrice": 1800,
+      "discount": 38.89,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceGs-_KVe0HfmBarHLxdKzch_Hatmez6h_bERhuJNRQ&s"
+    },
+    {
+      "id": "4",
+      "name": "Beauty Essentials 9",
+      "brand": "Brand 9",
+      "price": 1300,
+      "originalPrice": 2000,
+      "discount": 35,
+      "image": "https://ecommercephotographyindia.com/assets/img/gallery/cosmetics-product-coloured-bg.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Beauty Essentials 10",
+      "brand": "Brand 10",
+      "price": 950,
+      "originalPrice": 1500,
+      "discount": 36.67,
+      "image": "https://www.licious.in/blog/wp-content/uploads/2022/09/4-Product-Shot_10_fin-750x750.jpg"
+    },
+    {
+      "id": "f7f1",
+      "name": " ShipBob Australia",
+      "brand": "ShipBob",
+      "price": "150",
+      "originalPrice": "250",
+      "discount": "150",
+      "image": "https://www.shipbob.com/au/wp-content/uploads/sites/33/2022/07/PRODUCT-RANGE.jpg"
+    },
+    {
+      "id": "2a60",
+      "name": "ship Product",
+      "brand": "ShipBob",
+      "price": "150",
+      "originalPrice": "150",
+      "discount": "20",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSg2kTbxkdTlxPVnJ77w6AhasHToAwA98fJ6zPkJ_YCJVi2-jRXbHw55M91jgHmxZZcBY&usqp=CAU"
+    }
+  ]
+}

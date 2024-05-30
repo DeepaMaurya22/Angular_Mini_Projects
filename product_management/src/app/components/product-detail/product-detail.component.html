@@ -1,0 +1,31 @@
+<div class="flex justify-center items-center mt-8" *ngIf="product">
+  <div class="w-4/12">
+    <mat-card>
+      <img
+        mat-card-image
+        src="{{ product.image }}"
+        alt="{{ product.name }}"
+        class="h-64 w-full object-cover"
+      />
+      <div class="p-4">
+        <h1>{{ product.name }}</h1>
+        <h3>{{ product.brand }}</h3>
+        <div class="flex items-center justify-center gap-4">
+          <span>Rs. {{ product.price }}</span>
+          <span
+            ><s>Rs. {{ product.originalPrice }}</s></span
+          >
+          <span>({{ product.discount }}%) OFF</span>
+          <button
+            mat-raised-button
+            color="primary"
+            class="ml-auto"
+            [routerLink]="'/edit-product/' + product.id"
+          >
+            Edit
+          </button>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+</div>

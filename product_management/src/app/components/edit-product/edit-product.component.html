@@ -1,0 +1,61 @@
+<div class="p-8 mt-8 flex justify-center">
+  <form
+    [formGroup]="productForm"
+    class="shadow border w-6/12 p-5"
+    (ngSubmit)="editProduct()"
+  >
+    <div class="flex justify-center flex-col">
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          name="name"
+          formControlName="name"
+          placeholder="Enter product name"
+        />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          name="brand"
+          formControlName="brand"
+          placeholder="Enter brand name"
+        />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          name="image"
+          formControlName="image"
+          placeholder="Enter image"
+        />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          name="originalPrice"
+          formControlName="originalPrice"
+          placeholder="Enter originalPrice"
+        />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          name="price"
+          formControlName="price"
+          placeholder="Enter price"
+        />
+      </mat-form-field>
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          name="discount"
+          formControlName="discount"
+          placeholder="Enter discount"
+        />
+      </mat-form-field>
+    </div>
+    <div class="flex justify-center">
+      <button color="primary" mat-raised-button>Update</button>
+    </div>
+  </form>
+</div>
